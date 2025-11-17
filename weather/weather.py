@@ -1,7 +1,7 @@
 from typing import Any
 
 import httpx
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 # Initialize FastMCP server
 mcp = FastMCP("weather")
@@ -94,7 +94,7 @@ Forecast: {period['detailedForecast']}
 
 def main():
     # Initialize and run the server
-    mcp.run(transport="stdio")
+    mcp.run()
 
 
 if __name__ == "__main__":

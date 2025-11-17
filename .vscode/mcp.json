@@ -1,14 +1,18 @@
 {
 	"servers": {
-		"my-mcp-server-881281b5": {
+		"my-mcp-server-stdio-881281b5": {
 			"type": "stdio",
 			"command": "uv",
 			"args": [
-                "--directory",
-                "/home/dulanj/cube/git/github/mcp-server/weather",
+				"--directory",
+				"/home/dulanj/cube/git/github/mcp-server/weather",
 				"run",
 				"weather.py"
 			]
+		},
+		"my-mcp-server-http-a87c0e97": {
+			"url": "http://0.0.0.0:8008/mcp",
+			"type": "http"
 		}
 	},
 	"inputs": []
