@@ -1,1 +1,14 @@
 # mcp-server
+
+```json
+"my-mcp-server-stdio-881281b5": {
+	"type": "stdio",
+	"command": "uv",
+	"args": [
+		"--directory",
+		"/home/dulanj/cube/git/github/mcp-server/weather",
+		"run",
+		"weather.py"
+	]
+}
+```
